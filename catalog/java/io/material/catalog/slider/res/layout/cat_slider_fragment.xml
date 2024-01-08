@@ -49,9 +49,10 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="32dp"
     android:layout_gravity="center"
-    app:values="@array/initial_slider_multi_values"
-    android:valueFrom="0.0"
-    android:valueTo="11.0" />
+    app:values="@array/initial_slider_multi_values_test"
+    android:valueFrom="1000.0"
+    android:valueTo="258896000.0"
+    android:stepSize="1000.0" />
 
   <Button
       android:id="@+id/button"
